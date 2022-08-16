@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import AboutMe from "./Sections/About Me";
 
+const appStyle = {
+  paddingTop: "2rem",
+  paddingBottom: "2rem",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "flex-start",
+  alignItems: "center",
+  gap: "8rem",
+};
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={appStyle}>
+      <AboutMe />
     </div>
   );
 }
