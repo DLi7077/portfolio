@@ -1,0 +1,9 @@
+.content-box {
+  display: flex;
+  justify-content: center;
+  background-color: #666666;
+  padding: 2rem;
+  border-radius: 12px;
+  width: min(1200px, 100vw);
+  box-sizing: border-box;
+}
