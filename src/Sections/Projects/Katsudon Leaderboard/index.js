@@ -13,6 +13,7 @@ export default function KatsudonLeaderboard() {
   const slides = [Leaderboard, Profile];
   const icons = [
     "MongoDB",
+    "NodeJS",
     "Typescript",
     "Postman",
     "Chrome",
@@ -40,8 +41,11 @@ export default function KatsudonLeaderboard() {
           <ul>
             <li>
               Designed multiple schemas using MongoDB to store users, leetcode
-              problems, and solutions Implemented APIs for user verification &
-              authorization, and solution posting
+              problems, and solutions
+            </li>
+            <li>
+              Implemented APIs for user verification & authorization, and
+              solution posting
             </li>
             <li>
               Built a Chrome Extension that allows users to automatically send

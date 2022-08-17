@@ -25,6 +25,10 @@ const ICONS = {
     src: require("./Pandas.png"),
     url: "https://pandas.pydata.org/docs/",
   },
+  NodeJS: {
+    src: require("./NodeJS.png"),
+    url: "https://nodejs.org/en/docs/",
+  },
   Postgres: {
     src: require("./Postgres.png"),
     url: "https://www.postgresql.org/docs/",

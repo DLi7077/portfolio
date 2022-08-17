@@ -27,6 +27,17 @@ export default function NYUFCU() {
       <div className="content-container" style={{ color: "black" }}>
         <div className="slideshow">
           <Slideshow slides={slides} />
+          <div className="links">
+            <a
+              href="https://dli7077.github.io/nyu-fcu/"
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+              style={{ color: pageColorTheme }}
+            >
+              https://dli7077.github.io/nyu-fcu/
+            </a>
+          </div>
         </div>
         <div className="article">
           <div className="subtitle" style={{ color: pageColorTheme }}>
@@ -41,10 +52,10 @@ export default function NYUFCU() {
             <br />
             Improved various features including:
             <ul>
-              <li>app responsiveness</li>
-              <li>user interface</li>
-              <li>accessibility</li>
-              <li>loans/mortgage calculators</li>
+              <li>App responsiveness</li>
+              <li>User interface</li>
+              <li>Accessibility</li>
+              <li>Loans/mortgage calculators</li>
             </ul>
             <blockquote>
               The website was previously built by OMNICOMMANDER using
@@ -56,17 +67,6 @@ export default function NYUFCU() {
             <div className="bottom-right">July 2020 - August 2020</div>
           </div>
         </div>
-      </div>
-      <div className="links">
-        <a
-          href="https://dli7077.github.io/nyu-fcu/"
-          target="_blank"
-          rel="noreferrer"
-          className="redirect"
-          style={{ color: pageColorTheme }}
-        >
-          https://dli7077.github.io/nyu-fcu/
-        </a>
       </div>
     </>
   );

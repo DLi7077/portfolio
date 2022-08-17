@@ -11,6 +11,7 @@ export default function TheGoldenHouse() {
   const slides = [Leaderboard, ApprovalTable];
   const icons = [
     "MongoDB",
+    "NodeJS",
     "Typescript",
     "Postman",
     "Python",
