@@ -1,7 +1,9 @@
 import React from "react";
 import ContentBox from "../../Components/ContentBox";
 import Devin from "../../Assets/people/devin.jpg";
-import IconList from "../../Components/IconList";
+import { IconButton } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const classes = {
   contentContainer: {
@@ -15,32 +17,35 @@ const classes = {
     justifyContent: "flex-start",
     alignItems: "center",
   },
+  social: {
+    fontSize: "6rem",
+    color: "white",
+    padding: 0,
+  },
 };
 
 export default function AboutMe() {
   const aboutMe = (
-    <>
-      <div style={{ fontSize: "1.5rem" }}>
-        I'm 20 years old, entering my 4th year at CUNY Hunter College as a
-        computer science major.
-        <br />
-        My courseworks mainly consist of command line scripts and algorithm
-        implementations, which I find a bit boring.
-        <br />
-        I've decided to explore full stack development and machine learning on
-        my own.
-        <br />
-        Although I have no relevant professional software engineering
-        experience, I've been using projects as a way to grow.
-        <br />
-        Below are some projects I've either completed or are in progress.
-      </div>
-    </>
+    <div className="text">
+      I'm 20 years old, entering my 4th year at CUNY Hunter College as a
+      computer science major.
+      <br />
+      My course works mainly consist of command line scripts and algorithm
+      implementations, which I find a bit boring.
+      <br />
+      I've decided to explore full stack development and machine learning on my
+      own.
+      <br />
+      Although I have no relevant professional software engineering experience,
+      I've been using projects as a way to grow.
+      <br />
+      Below are some projects I've either completed or are in progress.
+    </div>
   );
   const content = (
     <div style={classes.contentContainer}>
       <div style={classes.contentBox}>
-        <div className="subtitle">Hello! I'm Devin Li</div>
+        <div className="title">Hello! I'm Devin Li</div>
         <img
           src={Devin}
           style={{ width: "250px", borderRadius: "40px" }}
@@ -56,13 +61,32 @@ export default function AboutMe() {
             display: "block",
           }}
         />
+        <div>
+          <IconButton>
+            <a
+              href="https://github.com/DLi7077"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon style={classes.social} />
+            </a>
+          </IconButton>
+          <IconButton>
+            <a
+              href="https://www.linkedin.com/in/devin-li7077/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon style={{ ...classes.social, fontSize: "7rem" }} />
+            </a>
+          </IconButton>
+        </div>
       </div>
     </div>
   );
-  
   return (
     <div>
-      <div className="title" style={{ color: "#44A5FF" }}>
+      <div className="section-title " style={{ color: "#44A5FF" }}>
         About Me
       </div>
       <ContentBox

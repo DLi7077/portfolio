@@ -1,9 +1,11 @@
-.content-box {
+.content-component {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: #666666;
-  padding: 2rem;
-  border-radius: 12px;
+  background-color: #555555;
   width: min(1200px, 100vw);
   box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 12px;
+  /* border: 2px solid gray; */
 }
