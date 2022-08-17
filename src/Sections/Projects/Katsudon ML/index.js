@@ -9,7 +9,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 export default function KatsudonML() {
   const pageColorTheme = "#7BD0FF";
   const slides = [APIResponse];
-  const icons = ["Postgres", "Typescript", "Postman"];
+  const icons = ["Postgres", "NodeJS", "Typescript", "Postman"];
   const tabList = [
     {
       label: "About this project",
@@ -45,7 +45,7 @@ export default function KatsudonML() {
             </li>
             <li>
               Used discord developer documentation to build a discord bot that
-              actively listen for messages of volunteering users in a server
+              actively listens for messages of volunteering users in a server
             </li>
             <li>
               Implementing Machine Learning Fundamentals like Naive Bayes to
