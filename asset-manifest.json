@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dd71e406.css",
-    "main.js": "/portfolio/static/js/main.ae9c5479.js",
+    "main.css": "/portfolio/static/css/main.e3ea1c27.css",
+    "main.js": "/portfolio/static/js/main.17269422.js",
     "static/media/popeyes_devin.jpg": "/portfolio/static/media/popeyes_devin.6e1d904235411af86954.jpg",
     "static/media/Naughty.png": "/portfolio/static/media/Naughty.110db53906271e2b442e.png",
     "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.0aacc0840d985e6657b5.png",
@@ -18,6 +18,7 @@
     "static/media/ProfilePage.png": "/portfolio/static/media/ProfilePage.ed24a7ea382faca41ce1.png",
     "static/media/Pandas.png": "/portfolio/static/media/Pandas.1e4afcce76cf5b709a81.png",
     "static/media/APIResponse.png": "/portfolio/static/media/APIResponse.186969c90d0c05ac4ae4.png",
+    "static/media/Devin L. Resume.pdf": "/portfolio/static/media/Devin L. Resume.e02e8f587fa698ffbcc8.pdf",
     "static/media/devin.jpg": "/portfolio/static/media/devin.b841733fa2c9c6817f4a.jpg",
     "static/media/Chrome.png": "/portfolio/static/media/Chrome.36d994b239eafa2c2c87.png",
     "static/media/Postgres.png": "/portfolio/static/media/Postgres.31db8641646da4384529.png",
@@ -30,11 +31,11 @@
     "static/media/Typescript.png": "/portfolio/static/media/Typescript.af108db04a54d784da9b.png",
     "static/media/NYUFCU.png": "/portfolio/static/media/NYUFCU.dc2dafe3220598fc04e0.png",
     "index.html": "/portfolio/index.html",
-    "main.dd71e406.css.map": "/portfolio/static/css/main.dd71e406.css.map",
-    "main.ae9c5479.js.map": "/portfolio/static/js/main.ae9c5479.js.map"
+    "main.e3ea1c27.css.map": "/portfolio/static/css/main.e3ea1c27.css.map",
+    "main.17269422.js.map": "/portfolio/static/js/main.17269422.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd71e406.css",
-    "static/js/main.ae9c5479.js"
+    "static/css/main.e3ea1c27.css",
+    "static/js/main.17269422.js"
   ]
 }
