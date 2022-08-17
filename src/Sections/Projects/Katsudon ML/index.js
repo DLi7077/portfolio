@@ -3,9 +3,8 @@ import IconList from "../../../Components/IconList";
 import Slideshow from "../../../Components/Slideshow";
 import APIResponse from "../../../Assets/slides/Katsudon ML/APIResponse.png";
 import TabGroup from "../../../Components/TabGroup";
-import "../styles.css";
+import "../../styles.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import ICONS from "../../../Assets/icons";
 
 export default function KatsudonML() {
   const pageColorTheme = "#7BD0FF";
@@ -77,6 +76,7 @@ export default function KatsudonML() {
           <div>
             <TabGroup tabs={tabList} color={pageColorTheme} />
           </div>
+          <div className="bottom-right">August 2022 - Present</div>
         </div>
       </div>
       <div className="links">
