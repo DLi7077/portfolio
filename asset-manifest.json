@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e3ea1c27.css",
-    "main.js": "/portfolio/static/js/main.17269422.js",
+    "main.js": "/portfolio/static/js/main.d8e9dfbf.js",
     "static/media/popeyes_devin.jpg": "/portfolio/static/media/popeyes_devin.6e1d904235411af86954.jpg",
     "static/media/Naughty.png": "/portfolio/static/media/Naughty.110db53906271e2b442e.png",
     "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.0aacc0840d985e6657b5.png",
@@ -21,6 +21,7 @@
     "static/media/Devin L. Resume.pdf": "/portfolio/static/media/Devin L. Resume.e02e8f587fa698ffbcc8.pdf",
     "static/media/devin.jpg": "/portfolio/static/media/devin.b841733fa2c9c6817f4a.jpg",
     "static/media/Chrome.png": "/portfolio/static/media/Chrome.36d994b239eafa2c2c87.png",
+    "static/media/NodeJS.png": "/portfolio/static/media/NodeJS.e328955d6bbbf3ebc72b.png",
     "static/media/Postgres.png": "/portfolio/static/media/Postgres.31db8641646da4384529.png",
     "static/media/McDonalds.png": "/portfolio/static/media/McDonalds.bb8154a9ebe24593667b.png",
     "static/media/MUI.png": "/portfolio/static/media/MUI.5b2d8a0a309d9f7d47c1.png",
@@ -32,10 +33,10 @@
     "static/media/NYUFCU.png": "/portfolio/static/media/NYUFCU.dc2dafe3220598fc04e0.png",
     "index.html": "/portfolio/index.html",
     "main.e3ea1c27.css.map": "/portfolio/static/css/main.e3ea1c27.css.map",
-    "main.17269422.js.map": "/portfolio/static/js/main.17269422.js.map"
+    "main.d8e9dfbf.js.map": "/portfolio/static/js/main.d8e9dfbf.js.map"
   },
   "entrypoints": [
     "static/css/main.e3ea1c27.css",
-    "static/js/main.17269422.js"
+    "static/js/main.d8e9dfbf.js"
   ]
 }
