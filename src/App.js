@@ -13,6 +13,7 @@ const appStyle = {
   justifyContent: "flex-start",
   alignItems: "center",
   gap: "4rem",
+  overflow: "hidden",
 };
 
 function App() {

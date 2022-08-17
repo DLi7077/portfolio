@@ -24,7 +24,16 @@ export default function IconList(props) {
       {props.icons.map((icon, idx) => {
         return (
           ICONS[icon] && (
-            <img src={ICONS[icon]} key={idx} style={classes.icon} alt={icon} />
+            <div>
+              <a href={ICONS[icon].url} target="_blank" rel="noreferrer">
+                <img
+                  src={ICONS[icon].src}
+                  key={idx}
+                  style={classes.icon}
+                  alt={icon}
+                />
+              </a>
+            </div>
           )
         );
       })}

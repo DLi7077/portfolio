@@ -1,9 +1,11 @@
 import React from "react";
 import ContentBox from "../../Components/ContentBox";
 import Devin from "../../Assets/people/devin.jpg";
-import { IconButton } from "@mui/material";
+import Resume from "../../Assets/docs/Devin L. Resume.pdf";
+import { IconButton, Tooltip } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import DescriptionIcon from "@mui/icons-material/Description";
 
 const classes = {
   contentContainer: {
@@ -21,6 +23,9 @@ const classes = {
     fontSize: "6rem",
     color: "white",
     padding: 0,
+  },
+  toolip: {
+    fontSize: "1.5rem",
   },
 };
 
@@ -45,7 +50,7 @@ export default function AboutMe() {
   const content = (
     <div style={classes.contentContainer}>
       <div style={classes.contentBox}>
-        <div className="title">Hello! I'm Devin Li</div>
+        <div className="section-title">Hello! I'm Devin Li</div>
         <img
           src={Devin}
           style={{ width: "250px", borderRadius: "40px" }}
@@ -61,7 +66,15 @@ export default function AboutMe() {
             display: "block",
           }}
         />
-        <div>
+      </div>
+      <div
+        style={{
+          ...classes.contentBox,
+          flexDirection: "row",
+          justifyContent: "center",
+        }}
+      >
+        <Tooltip title={<div style={classes.toolip}>GitHub</div>}>
           <IconButton>
             <a
               href="https://github.com/DLi7077"
@@ -71,6 +84,9 @@ export default function AboutMe() {
               <GitHubIcon style={classes.social} />
             </a>
           </IconButton>
+        </Tooltip>
+
+        <Tooltip title={<div style={classes.toolip}>LinkedIn</div>}>
           <IconButton>
             <a
               href="https://www.linkedin.com/in/devin-li7077/"
@@ -80,15 +96,20 @@ export default function AboutMe() {
               <LinkedInIcon style={{ ...classes.social, fontSize: "7rem" }} />
             </a>
           </IconButton>
-        </div>
+        </Tooltip>
+
+        <Tooltip title={<div style={classes.toolip}>Resume</div>}>
+          <IconButton>
+            <a href={Resume} target="_blank" rel="noreferrer">
+              <DescriptionIcon style={classes.social} />
+            </a>
+          </IconButton>
+        </Tooltip>
       </div>
     </div>
   );
   return (
     <div>
-      <div className="section-title " style={{ color: "#44A5FF" }}>
-        About Me
-      </div>
       <ContentBox
         content={content}
         style={{
