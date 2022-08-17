@@ -33,8 +33,10 @@ export default function TabGroup(props) {
               }
               style={{
                 color: props.color ?? "white",
+                paddingTop: 0,
                 paddingBottom: 0,
                 marginLeft: 0,
+                backgroundColor: "rgba(0,0,0,0.1)",
               }}
             />
           );

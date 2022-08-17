@@ -5,7 +5,11 @@ export default function Slideshow(props) {
   if (props.slides.length < 2)
     return <img src={props.slides[0]} alt="slides" style={{ width: "100%" }} />;
   return (
-    <Carousel navButtonsAlwaysVisible height={400}>
+    <Carousel
+      navButtonsAlwaysVisible
+      animation="slide"
+      height="min(400px,50vw)"
+    >
       {props.slides.map((slide, idx) => {
         return (
           <img

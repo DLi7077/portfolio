@@ -15,6 +15,7 @@ export default function KatsudonLeaderboard() {
     "MongoDB",
     "Typescript",
     "Postman",
+    "Chrome",
     "Javascript",
     "HTML",
     "CSS",
@@ -88,56 +89,57 @@ export default function KatsudonLeaderboard() {
       <div className="content-container">
         <div className="slideshow">
           <Slideshow slides={slides} />
+          <div className="links">
+            <div className="redirect-wrapper">
+              <a
+                href="https://github.com/DLi7077/katsudon-leetcode-extension"
+                target="_blank"
+                rel="noreferrer"
+                className="redirect"
+                style={{ color: "black" }}
+              >
+                <GitHubIcon style={{ fontSize: "36px" }} />
+              </a>
+              Chrome Extension
+            </div>
+            <div className="redirect-wrapper">
+              <a
+                href="https://github.com/DLi7077/katsudon-server-v2"
+                target="_blank"
+                rel="noreferrer"
+                className="redirect"
+                style={{ color: "black" }}
+              >
+                <GitHubIcon style={{ fontSize: "36px" }} />
+              </a>
+              MongoDB Server
+            </div>
+            <div className="redirect-wrapper">
+              <a
+                href="https://www.figma.com/proto/mdTjxsEwW4RGlNNCMM1eMd/Katsudon-Leaderboard?page-id=0%3A1&node-id=17%3A242&viewport=337%2C376%2C0.86&scaling=min-zoom"
+                target="_blank"
+                rel="noreferrer"
+                className="redirect"
+              >
+                <img
+                  src={ICONS["Figma"].src}
+                  style={{ width: "32px" }}
+                  alt="figma"
+                />
+              </a>
+              Page Layout
+            </div>
+          </div>
         </div>
         <div className="article">
           <div className="subtitle" style={{ color: pageColorTheme }}>
             Tools Used
+            <IconList icons={icons} />
           </div>
-          <IconList icons={icons} />
-          <div>
+          <div style={{ width: "100%" }}>
             <TabGroup tabs={tabList} color={pageColorTheme} />
           </div>
           <div className="bottom-right">August 2022 - Present</div>
-        </div>
-      </div>
-      <div className="links">
-        <div className="redirect-wrapper">
-          <br />
-          <a
-            href="https://github.com/DLi7077/katsudon-leetcode-extension"
-            target="_blank"
-            rel="noreferrer"
-            className="redirect"
-            style={{ color: "black" }}
-          >
-            <GitHubIcon style={{ fontSize: "36px" }} />
-          </a>
-          Chrome Extension
-        </div>
-        <div className="redirect-wrapper">
-          <br />
-          <a
-            href="https://github.com/DLi7077/katsudon-server-v2"
-            target="_blank"
-            rel="noreferrer"
-            className="redirect"
-            style={{ color: "black" }}
-          >
-            <GitHubIcon style={{ fontSize: "36px" }} />
-          </a>
-          MongoDB Server
-        </div>
-        <div className="redirect-wrapper">
-          <br />
-          <a
-            href="https://www.figma.com/proto/mdTjxsEwW4RGlNNCMM1eMd/Katsudon-Leaderboard?page-id=0%3A1&node-id=17%3A242&viewport=337%2C376%2C0.86&scaling=min-zoom"
-            target="_blank"
-            rel="noreferrer"
-            className="redirect"
-          >
-            <img src={ICONS["Figma"]} style={{ width: "32px" }} alt="figma" />
-          </a>
-          Page Layout
         </div>
       </div>
     </>

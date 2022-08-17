@@ -9,7 +9,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 export default function KatsudonML() {
   const pageColorTheme = "#7BD0FF";
   const slides = [APIResponse];
-  const icons = ["Postgres", "Typescript", "Postman", "Javascript"];
+  const icons = ["Postgres", "Typescript", "Postman"];
   const tabList = [
     {
       label: "About this project",
@@ -67,44 +67,42 @@ export default function KatsudonML() {
       <div className="content-container">
         <div className="slideshow">
           <Slideshow slides={slides} />
+          <div className="links">
+            <div className="redirect-wrapper">
+              <a
+                href="https://github.com/DLi7077/katsudon-discord-bot"
+                target="_blank"
+                rel="noreferrer"
+                className="redirect"
+                style={{ color: "black" }}
+              >
+                <GitHubIcon style={{ fontSize: "36px" }} />
+              </a>
+              Discord Bot
+            </div>
+            <div className="redirect-wrapper">
+              <a
+                href="https://github.com/DLi7077/katsudon-pg-server"
+                target="_blank"
+                rel="noreferrer"
+                className="redirect"
+                style={{ color: "black" }}
+              >
+                <GitHubIcon style={{ fontSize: "36px" }} />
+              </a>
+              Postgres Server
+            </div>
+          </div>
         </div>
         <div className="article">
           <div className="subtitle" style={{ color: pageColorTheme }}>
             Tools Used
+            <IconList icons={icons} />
           </div>
-          <IconList icons={icons} />
-          <div>
+          <div style={{ width: "100%" }}>
             <TabGroup tabs={tabList} color={pageColorTheme} />
           </div>
           <div className="bottom-right">August 2022 - Present</div>
-        </div>
-      </div>
-      <div className="links">
-        <div className="redirect-wrapper">
-          <br />
-          <a
-            href="https://github.com/DLi7077/katsudon-discord-bot"
-            target="_blank"
-            rel="noreferrer"
-            className="redirect"
-            style={{ color: "black" }}
-          >
-            <GitHubIcon style={{ fontSize: "36px" }} />
-          </a>
-          Discord Bot
-        </div>
-        <div className="redirect-wrapper">
-          <br />
-          <a
-            href="https://github.com/DLi7077/katsudon-pg-server"
-            target="_blank"
-            rel="noreferrer"
-            className="redirect"
-            style={{ color: "black" }}
-          >
-            <GitHubIcon style={{ fontSize: "36px" }} />
-          </a>
-          Postgres Server
         </div>
       </div>
     </>

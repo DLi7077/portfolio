@@ -31,8 +31,8 @@ export default function NYUFCU() {
         <div className="article">
           <div className="subtitle" style={{ color: pageColorTheme }}>
             Tools Used
+            <IconList icons={icons} />
           </div>
-          <IconList icons={icons} />
           <div className="subtitle" style={{ color: pageColorTheme }}>
             Responsiblities
           </div>

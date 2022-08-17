@@ -90,28 +90,28 @@ export default function TheGoldenHouse() {
       <div className="content-container">
         <div className="slideshow">
           <Slideshow slides={slides} />
+          <div className="links">
+            <a
+              href="https://genshin.tghofficial.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+              style={{ color: pageColorTheme }}
+            >
+              https://genshin.tghofficial.com/
+            </a>
+          </div>
         </div>
         <div className="article">
           <div className="subtitle" style={{ color: pageColorTheme }}>
             Tools Used
+            <IconList icons={icons} />
           </div>
-          <IconList icons={icons} />
-          <div>
+          <div style={{ width: "100%" }}>
             <TabGroup tabs={tabList} color={pageColorTheme} />
           </div>
           <div className="bottom-right">February 2022 - Present</div>
         </div>
-      </div>
-      <div className="links">
-        <a
-          href="https://genshin.tghofficial.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="redirect"
-          style={{ color: pageColorTheme }}
-        >
-          https://genshin.tghofficial.com/
-        </a>
       </div>
     </>
   );
