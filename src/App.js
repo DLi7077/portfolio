@@ -1,4 +1,5 @@
 import AboutMe from "./Sections/About Me";
+import Projects from "./Sections/Projects";
 
 const appStyle = {
   paddingTop: "2rem",
@@ -7,12 +8,14 @@ const appStyle = {
   flexDirection: "column",
   justifyContent: "flex-start",
   alignItems: "center",
-  gap: "8rem",
+  gap: "6rem",
 };
+
 function App() {
   return (
     <div style={appStyle}>
       <AboutMe />
+      <Projects />
     </div>
   );
 }

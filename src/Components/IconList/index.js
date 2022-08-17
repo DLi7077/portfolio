@@ -3,12 +3,14 @@ import ICONS from "../../Assets/icons";
 
 const classes = {
   icon: {
-    width: "32px",
+    width: "36px",
   },
   list: {
     display: "flex",
     justifyContent: "flex-start",
+    flexWrap: "wrap",
     alignItems: "center",
+    gap: "1rem",
   },
 };
 
