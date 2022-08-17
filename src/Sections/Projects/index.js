@@ -11,7 +11,7 @@ export default function Projects() {
       >
         Every project is a chance to grow!
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "4rem" }}>
+      <div className="block-wrapper">
         <TheGoldenHouse />
         <KatsudonLeaderboard />
         <KatsudonML />

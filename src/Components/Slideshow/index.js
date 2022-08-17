@@ -8,7 +8,12 @@ export default function Slideshow(props) {
     <Carousel navButtonsAlwaysVisible height={400}>
       {props.slides.map((slide, idx) => {
         return (
-          <img key={idx} src={slide} alt="slide" style={{ width: "100%" }} />
+          <img
+            key={idx}
+            src={slide}
+            alt="slide"
+            style={{ width: "100%", objectFit: "contain" }}
+          />
         );
       })}
     </Carousel>

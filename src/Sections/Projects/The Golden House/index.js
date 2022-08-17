@@ -4,7 +4,7 @@ import Slideshow from "../../../Components/Slideshow";
 import Leaderboard from "../../../Assets/slides/Golden House/Leaderboard.png";
 import ApprovalTable from "../../../Assets/slides/Golden House/ApprovalTable.png";
 import TabGroup from "../../../Components/TabGroup";
-import "../styles.css";
+import "../../styles.css";
 
 export default function TheGoldenHouse() {
   const pageColorTheme = "#FFBC57";
@@ -99,6 +99,7 @@ export default function TheGoldenHouse() {
           <div>
             <TabGroup tabs={tabList} color={pageColorTheme} />
           </div>
+          <div className="bottom-right">February 2022 - Present</div>
         </div>
       </div>
       <div className="links">

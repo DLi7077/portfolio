@@ -4,7 +4,7 @@ import Slideshow from "../../../Components/Slideshow";
 import Leaderboard from "../../../Assets/slides/Katsudon Leetcode/Leaderboard.png";
 import Profile from "../../../Assets/slides/Katsudon Leetcode/ProfilePage.png";
 import TabGroup from "../../../Components/TabGroup";
-import "../styles.css";
+import "../../styles.css";
 import ICONS from "../../../Assets/icons";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -97,6 +97,7 @@ export default function KatsudonLeaderboard() {
           <div>
             <TabGroup tabs={tabList} color={pageColorTheme} />
           </div>
+          <div className="bottom-right">August 2022 - Present</div>
         </div>
       </div>
       <div className="links">
@@ -134,7 +135,7 @@ export default function KatsudonLeaderboard() {
             rel="noreferrer"
             className="redirect"
           >
-            <img src={ICONS["Figma"]} style={{ width: "32px" }} />
+            <img src={ICONS["Figma"]} style={{ width: "32px" }} alt="figma" />
           </a>
           Page Layout
         </div>
