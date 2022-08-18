@@ -3,9 +3,11 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const buttonStyle = {
   position: "fixed",
-  bottom: "2vw",
-  right: "3vh",
+  bottom: "3vh",
+  right: "3vw",
   backgroundColor: "#62B9FF",
+  width: "4rem",
+  height: "4rem",
   zIndex: 1000,
 };
 export default function ScrollToTopButton() {
@@ -13,10 +15,13 @@ export default function ScrollToTopButton() {
     <IconButton
       style={buttonStyle}
       onClick={() => {
-        window.scrollTo(0, 0);
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
       }}
     >
-      <ArrowUpwardIcon />
+      <ArrowUpwardIcon style={{ fontSize: "2rem" }} />
     </IconButton>
   );
 }
