@@ -66,8 +66,11 @@ export default function TheGoldenHouse() {
               </li>
               <li>
                 Built a data migration script using Pandas to migrate 700+
-                entries from tablepress spreadsheets into MongoDB Built a
-                user-friendly leaderboard with filters using ReactJS and CSS
+                entries from tablepress spreadsheets into MongoDB
+              </li>
+              <li>
+                Built a user-friendly leaderboard with filters using ReactJS and
+                CSS
               </li>
               <li>
                 Built an approval table for our moderation team to effectively
