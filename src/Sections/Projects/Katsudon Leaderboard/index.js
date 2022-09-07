@@ -19,6 +19,8 @@ export default function KatsudonLeaderboard() {
     "Chrome",
     "Javascript",
     "HTML",
+    "React",
+    "MUI",
     "CSS",
     "Figma",
   ];
@@ -43,18 +45,16 @@ export default function KatsudonLeaderboard() {
               Designed multiple schemas using MongoDB to store users, leetcode
               problems, and solutions
             </li>
+            <li>Implemented Rest APIs to automate user submissons</li>
             <li>
-              Implemented APIs for user verification & authorization, and
-              solution posting
+              Built a Chrome Extension that allows registered users to
+              automatically send successful leetcode solutions to the database
             </li>
+            <li>Queried user solutions using mongoose aggregation pipelines</li>
+            <li>Designed the user interface with Figma, built with ReactJS</li>
             <li>
-              Built a Chrome Extension that allows users to automatically send
-              successful leetcode solutions to the database using implemented
-              APIs.
-            </li>
-            <li>
-              Designing the user interface with Figma and to be built with
-              ReactJS
+              Used implemented APIs to display problems and solutions on a clean
+              table
             </li>
           </ul>
         </div>
@@ -94,6 +94,17 @@ export default function KatsudonLeaderboard() {
         <div className="slideshow">
           <Slideshow slides={slides} />
           <div className="links">
+            <a
+              href="https://dli7077.github.io/katsudon-client/#/profile?user_id=6306b34920cf5f80f7d0c20d"
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+              style={{ color: pageColorTheme }}
+            >
+              https://dli7077.github.io/katsudon-client/
+            </a>
+          </div>
+          <div className="links">
             <div className="redirect-wrapper">
               <a
                 href="https://github.com/DLi7077/katsudon-leetcode-extension"
@@ -118,6 +129,7 @@ export default function KatsudonLeaderboard() {
               </a>
               MongoDB Server
             </div>
+
             <div className="redirect-wrapper">
               <a
                 href="https://www.figma.com/proto/mdTjxsEwW4RGlNNCMM1eMd/Katsudon-Leaderboard?page-id=0%3A1&node-id=17%3A242&viewport=337%2C376%2C0.86&scaling=min-zoom"

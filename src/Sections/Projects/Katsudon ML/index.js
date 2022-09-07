@@ -9,7 +9,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 export default function KatsudonML() {
   const pageColorTheme = "#7BD0FF";
   const slides = [APIResponse];
-  const icons = ["Postgres", "NodeJS", "Typescript", "Postman"];
+  const icons = ["Postgres", "NodeJS", "Typescript", "Postman", "Discord"];
   const tabList = [
     {
       label: "About this project",

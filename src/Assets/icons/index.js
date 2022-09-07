@@ -7,6 +7,10 @@ const ICONS = {
     src: require("./CSS.png"),
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
+  Discord: {
+    src: require("./Discord.png"),
+    url: "https://discord.com/developers/docs/intro",
+  },
   Figma: { src: require("./Figma.png"), url: "https://www.figma.com/" },
   HTML: {
     src: require("./HTML.png"),

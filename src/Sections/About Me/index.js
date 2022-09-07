@@ -50,7 +50,7 @@ export default function AboutMe() {
   const content = (
     <div style={classes.contentContainer}>
       <div style={classes.contentBox}>
-        <div className="section-title">Hello! I'm Devin Li</div>
+        <div className="section-title">Hello! I'm Devin</div>
         <img
           src={Devin}
           style={{ width: "250px", borderRadius: "40px" }}

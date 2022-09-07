@@ -1,5 +1,6 @@
 import KatsudonLeaderboard from "./Katsudon Leaderboard";
 import KatsudonML from "./Katsudon ML";
+import OsuTheme from "./Osu Theme";
 import TheGoldenHouse from "./The Golden House";
 
 export default function Projects() {
@@ -15,6 +16,7 @@ export default function Projects() {
         <TheGoldenHouse />
         <KatsudonLeaderboard />
         <KatsudonML />
+        <OsuTheme />
       </div>
     </div>
   );
