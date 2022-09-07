@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e3ea1c27.css",
-    "main.js": "/portfolio/static/js/main.bc6fc3b9.js",
+    "main.css": "/portfolio/static/css/main.7e07bb78.css",
+    "main.js": "/portfolio/static/js/main.384c7289.js",
+    "static/media/osutheme.gif": "/portfolio/static/media/osutheme.689e52e5b6a600ab16ec.gif",
     "static/media/popeyes_devin.jpg": "/portfolio/static/media/popeyes_devin.6e1d904235411af86954.jpg",
     "static/media/Naughty.png": "/portfolio/static/media/Naughty.110db53906271e2b442e.png",
     "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.0aacc0840d985e6657b5.png",
@@ -11,14 +12,13 @@
     "static/media/Popeyes.png": "/portfolio/static/media/Popeyes.41656d3066d877d7db28.png",
     "static/media/React.png": "/portfolio/static/media/React.8a6fc0a24a800d1e0f4a.png",
     "static/media/mcdonalds_devin.jpg": "/portfolio/static/media/mcdonalds_devin.2899f5a05b6f9c9af47a.jpg",
-    "static/media/Roboto-Thin.ttf": "/portfolio/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
     "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Python.png": "/portfolio/static/media/Python.fa4d12beb4f41da511bd.png",
     "static/media/ApprovalTable.png": "/portfolio/static/media/ApprovalTable.f671b18086ae47a4949c.png",
     "static/media/ProfilePage.png": "/portfolio/static/media/ProfilePage.ed24a7ea382faca41ce1.png",
     "static/media/Pandas.png": "/portfolio/static/media/Pandas.1e4afcce76cf5b709a81.png",
     "static/media/APIResponse.png": "/portfolio/static/media/APIResponse.186969c90d0c05ac4ae4.png",
-    "static/media/Devin L. Resume.pdf": "/portfolio/static/media/Devin L. Resume.e02e8f587fa698ffbcc8.pdf",
+    "static/media/Devin L. Resume.pdf": "/portfolio/static/media/Devin L. Resume.27f0be30e93797356a5a.pdf",
     "static/media/devin.jpg": "/portfolio/static/media/devin.b841733fa2c9c6817f4a.jpg",
     "static/media/Chrome.png": "/portfolio/static/media/Chrome.36d994b239eafa2c2c87.png",
     "static/media/NodeJS.png": "/portfolio/static/media/NodeJS.e328955d6bbbf3ebc72b.png",
@@ -32,11 +32,11 @@
     "static/media/Typescript.png": "/portfolio/static/media/Typescript.af108db04a54d784da9b.png",
     "static/media/NYUFCU.png": "/portfolio/static/media/NYUFCU.dc2dafe3220598fc04e0.png",
     "index.html": "/portfolio/index.html",
-    "main.e3ea1c27.css.map": "/portfolio/static/css/main.e3ea1c27.css.map",
-    "main.bc6fc3b9.js.map": "/portfolio/static/js/main.bc6fc3b9.js.map"
+    "main.7e07bb78.css.map": "/portfolio/static/css/main.7e07bb78.css.map",
+    "main.384c7289.js.map": "/portfolio/static/js/main.384c7289.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3ea1c27.css",
-    "static/js/main.bc6fc3b9.js"
+    "static/css/main.7e07bb78.css",
+    "static/js/main.384c7289.js"
   ]
 }
