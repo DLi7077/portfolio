@@ -83,5 +83,5 @@ export default function OsuTheme() {
     </>
   );
 
-  return <ContentBox content={content} />;
+  return <ContentBox>{content}</ContentBox>;
 }

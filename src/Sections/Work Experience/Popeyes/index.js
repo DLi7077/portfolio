@@ -46,6 +46,6 @@ export default function Popeyes() {
     </>
   );
   return (
-    <ContentBox content={content} style={{ backgroundColor: "#d5d5d5" }} />
+    <ContentBox style={{ backgroundColor: "#d5d5d5" }}>{content}</ContentBox>
   );
 }

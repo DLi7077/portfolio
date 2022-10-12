@@ -9,7 +9,7 @@ import ICONS from "../../../Assets/icons";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function KatsudonLeaderboard() {
-  const pageColorTheme = "#BD7AFF";
+  const pageColorTheme = "#F263E0";
   const slides = [Leaderboard, Profile];
   const icons = [
     "MongoDB",
@@ -23,16 +23,40 @@ export default function KatsudonLeaderboard() {
     "MUI",
     "CSS",
     "Figma",
+    "GoogleCloud",
   ];
   const tabList = [
     {
       label: "About this project",
       content: (
         <div className="text">
-          Katsudon Leetcode Leaderboard is (will) be a social platform for users
-          to compare their leetcode solutions with their friends. <br />
-          The main goal of this platform is to encourage social circles to solve
-          more leetcode problems while having a friendly competiton.
+          <ul>
+            <li>
+              Katsudon Leetcode is a social platform for users to display their
+              Leetcode solutions and skill progression.
+            </li>
+            <li>
+              The hope is to encourage CS Majors to proactively prepare for
+              technical interviews by trying out problems their friends have
+              attempted/solved.
+            </li>
+            <li>
+              It utilizes the Katsudon Chrome Extension to automatically upload
+              problem attempts/solutions from leetcode.com
+            </li>
+          </ul>
+
+          <div className="links">
+            <a
+              href="https://dli7077.github.io/katsudon-client/#/profile?user_id=6306b34920cf5f80f7d0c20d"
+              target="_blank"
+              rel="noreferrer"
+              className="redirect"
+              style={{ color: pageColorTheme, fontSize: "1.5rem" }}
+            >
+              Check out my profile!
+            </a>
+          </div>
         </div>
       ),
     },
@@ -42,19 +66,24 @@ export default function KatsudonLeaderboard() {
         <div className="text">
           <ul>
             <li>
-              Designed multiple schemas using MongoDB to store users, leetcode
-              problems, and solutions
+              Engineered a social platform from scratch to encourage users to
+              try out LeetCode problems with their friends
             </li>
-            <li>Implemented Rest APIs to automate user submissons</li>
             <li>
-              Built a Chrome Extension that allows registered users to
-              automatically send successful leetcode solutions to the database
+              Created and published a chrome extension to capture over 700
+              automated submissions for authorized users
             </li>
-            <li>Queried user solutions using mongoose aggregation pipelines</li>
-            <li>Designed the user interface with Figma, built with ReactJS</li>
             <li>
-              Used implemented APIs to display problems and solutions on a clean
-              table
+              Built a server with RESTAPI endpoints to display a solution table
+              and newsfeed page using ReactJS and CSS
+            </li>
+            <li>
+              Utilized mongoose aggregation pipelines for complex queries for
+              the weekly progress page
+            </li>
+            <li>
+              Allowed authorized users to customize their profile page using
+              Json Web Tokens and Google Cloud Storage
             </li>
           </ul>
         </div>
@@ -65,22 +94,26 @@ export default function KatsudonLeaderboard() {
       content: (
         <div className="text">
           Kevin:
-          <li>"Hey guys should we buy a leetcode premium and share it?"</li>
+          <ul>
+            <li>"Hey guys should we buy a leetcode premium and share it?"</li>
+          </ul>
           Me:
-          <li>
-            Sharing an account? It would be kind of weird seeing that a problem
-            was solved if I've never even seen it.
-          </li>
-          <li>
-            ... Though that would be a subtle way to tell that someone using the
-            account was putting in good work.
-          </li>
-          <li>
-            ... Is there a way to tell which problems our friends have solved?
-            It doesn't seem like leetcode has a social platform outside of the
-            discuss section.
-          </li>
-          <li>... Guess I'll try to make it myself</li>
+          <ul>
+            <li>
+              Sharing an account? It would be kind of weird seeing that a
+              problem was solved if I've never even seen it.
+            </li>
+            <li>
+              ... Though that would be a subtle way to tell that someone using
+              the account was putting in good work.
+            </li>
+            <li>
+              ... Is there a way to tell which problems our friends have solved?
+              It doesn't seem like leetcode has a social platform outside of the
+              discuss section.
+            </li>
+            <li>... Guess I'll try to make it myself</li>
+          </ul>
         </div>
       ),
     },
@@ -161,5 +194,5 @@ export default function KatsudonLeaderboard() {
     </>
   );
 
-  return <ContentBox content={content} />;
+  return <ContentBox>{content}</ContentBox>;
 }

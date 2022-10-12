@@ -48,7 +48,11 @@ export default function NYUFCU() {
             Responsiblities
           </div>
           <div className="text">
-            Rebuilt NYU Federal Credit Union's website using ReactJS and CSS
+            Proposed a design for the NYU FCU website and built it from scratch
+            using React and CSS
+            <br />
+            Reproduced over 50 pages, automated email submission forms, and created
+            mortgage calculators
             <br />
             Improved various features including:
             <ul>
@@ -71,6 +75,6 @@ export default function NYUFCU() {
     </>
   );
   return (
-    <ContentBox content={content} style={{ backgroundColor: "#d5d5d5" }} />
+    <ContentBox style={{ backgroundColor: "#d5d5d5" }}>{content}</ContentBox>
   );
 }

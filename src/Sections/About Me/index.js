@@ -20,12 +20,12 @@ const classes = {
     alignItems: "center",
   },
   social: {
-    fontSize: "6rem",
+    fontSize: "4rem",
     color: "white",
     padding: 0,
   },
   toolip: {
-    fontSize: "1.5rem",
+    fontSize: "1.25rem",
   },
 };
 
@@ -34,13 +34,17 @@ export default function AboutMe() {
     <div className="text">
       I'm 20 years old, entering my 4th year at CUNY Hunter College as a
       computer science major.
-      <br />
+      <div style={{height:"0.5rem"}}/>
       My course works mainly consist of command line scripts and algorithm
       implementations, which I find a bit boring.
+      <br/>
+      However, I'm currently taking high level elective classes and am really
+      enjoying it!
       <br />
-      I've decided to explore full stack development and machine learning on my
+      <div style={{height:"0.5rem"}}/>
+      I've decided to explore full stack development and a bit of machine learning on my
       own.
-      <br />
+      <div style={{height:"0.5rem"}}/>
       Although I have no relevant professional software engineering experience,
       I've been using projects as a way to grow.
       <br />
@@ -58,14 +62,9 @@ export default function AboutMe() {
         />
       </div>
       <div style={classes.contentBox}>
-        <ContentBox
-          content={aboutMe}
-          style={{
-            width: "80%",
-            padding: "1rem",
-            display: "block",
-          }}
-        />
+        <ContentBox style={{ width: "80%", padding: "1rem", display: "block" }}>
+          {aboutMe}
+        </ContentBox>
       </div>
       <div
         style={{
@@ -93,7 +92,7 @@ export default function AboutMe() {
               target="_blank"
               rel="noreferrer"
             >
-              <LinkedInIcon style={{ ...classes.social, fontSize: "7rem" }} />
+              <LinkedInIcon style={{ ...classes.social, fontSize: "5rem" }} />
             </a>
           </IconButton>
         </Tooltip>
@@ -110,12 +109,7 @@ export default function AboutMe() {
   );
   return (
     <div>
-      <ContentBox
-        content={content}
-        style={{
-          backgroundColor: "#222222",
-        }}
-      />
+      <ContentBox style={{ backgroundColor: "#222222" }}>{content}</ContentBox>
     </div>
   );
 }

@@ -24,9 +24,11 @@ export default function KatsudonML() {
           <div style={{ height: "0.5rem" }} />
           End goal is to predict user behavior and answer some random questions:
           <br />
-          <li>"Who is most likely to send a message past 12am?"</li>
-          <li>"Who is most likely to say, 'What the dog doing?'"</li>
-          <li>"Devin just said 'this is'- What will he say next? "</li>
+          <ul>
+            <li>"Who is most likely to send a message past 12am?"</li>
+            <li>"Who is most likely to say, 'What the dog doing?'"</li>
+            <li>"Devin just said 'this is'- What will he say next? "</li>
+          </ul>
         </div>
       ),
     },
@@ -108,5 +110,5 @@ export default function KatsudonML() {
     </>
   );
 
-  return <ContentBox content={content} />;
+  return <ContentBox>{content}</ContentBox>;
 }

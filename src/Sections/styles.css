@@ -36,4 +36,7 @@ li::marker {
   .article {
     width: 100%;
   }
+  .link {
+    justify-content: center;
+  }
 }

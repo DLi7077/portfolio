@@ -20,6 +20,7 @@ export default function TheGoldenHouse() {
     "React",
     "CSS",
     "MUI",
+    "Golang",
   ];
   const tabList = [
     {
@@ -27,11 +28,11 @@ export default function TheGoldenHouse() {
       content: (
         <>
           <div className="text">
-            The Golden House is a leaderboard website for the popular RPG Game:
+            The Golden House is a leaderboard website for the popular Role-Playing Game:
             Genshin Impact.
             <br /> High profile Genshin Impact youtubers, speedrunners, and
-            DPSers use this website to show off their characters and in-game
-            achievements.
+            DPSers use this website to show off their powerful/ highly invested
+            characters and achievements.
             <div style={{ marginTop: "1rem", color: pageColorTheme }}>
               There are two defined playstyles
             </div>
@@ -57,28 +58,24 @@ export default function TheGoldenHouse() {
           <div className="text">
             <ul>
               <li>
-                Created the DPS-entry Schema for users to show off how hard
-                their character can hit in one frame
+                Engineered a full stack application to host a leaderboard
+                displaying the achievements of 900+ users
               </li>
               <li>
-                Implemented GET and POST APIs using efficient mongoose queries
-                in Typescript
+                Automated user submissions using REST APIs implemented with
+                Mongoose queries
               </li>
               <li>
-                Built a data migration script using Pandas to migrate 700+
-                entries from tablepress spreadsheets into MongoDB
+                Migrated 700+ entries from TablePress spreadsheets into
+                production by creating a data migration script
               </li>
               <li>
-                Built a user-friendly leaderboard with filters using ReactJS and
-                CSS
+                Optimized our moderation team's workflow by 300% by creating an
+                approval table to easily modify submissions
               </li>
               <li>
-                Built an approval table for our moderation team to effectively
-                approve/reject entries
-              </li>
-              <li>
-                Used Git/Github to maintain clean workflow through rebasing
-                branches and pull requests
+                Reduced the runtime of an aggregation query pipeline by ~70% by
+                performing a database backfill using a Go script
               </li>
             </ul>
           </div>
@@ -120,5 +117,5 @@ export default function TheGoldenHouse() {
     </>
   );
 
-  return <ContentBox content={content} />;
+  return <ContentBox>{content}</ContentBox>;
 }
