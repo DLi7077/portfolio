@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7e07bb78.css",
-    "main.js": "/portfolio/static/js/main.84450c26.js",
+    "main.css": "/portfolio/static/css/main.eb65102d.css",
+    "main.js": "/portfolio/static/js/main.2ff88b9f.js",
     "static/media/osutheme.gif": "/portfolio/static/media/osutheme.689e52e5b6a600ab16ec.gif",
     "static/media/popeyes_devin.jpg": "/portfolio/static/media/popeyes_devin.6e1d904235411af86954.jpg",
     "static/media/Naughty.png": "/portfolio/static/media/Naughty.110db53906271e2b442e.png",
-    "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.0aacc0840d985e6657b5.png",
+    "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.c6c11250bfe7226b9f23.png",
     "static/media/Webinars.png": "/portfolio/static/media/Webinars.3eb28a9891bba58c7ef3.png",
     "static/media/Trustage.png": "/portfolio/static/media/Trustage.2d386e65c77bc1dd65b1.png",
     "static/media/Tables.png": "/portfolio/static/media/Tables.2a360e4fc879f4a0e928.png",
+    "static/media/ProfilePage.png": "/portfolio/static/media/ProfilePage.37105374f3c7a044c5a6.png",
     "static/media/Popeyes.png": "/portfolio/static/media/Popeyes.41656d3066d877d7db28.png",
     "static/media/React.png": "/portfolio/static/media/React.8a6fc0a24a800d1e0f4a.png",
     "static/media/mcdonalds_devin.jpg": "/portfolio/static/media/mcdonalds_devin.2899f5a05b6f9c9af47a.jpg",
     "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Python.png": "/portfolio/static/media/Python.fa4d12beb4f41da511bd.png",
     "static/media/ApprovalTable.png": "/portfolio/static/media/ApprovalTable.f671b18086ae47a4949c.png",
-    "static/media/ProfilePage.png": "/portfolio/static/media/ProfilePage.ed24a7ea382faca41ce1.png",
     "static/media/Pandas.png": "/portfolio/static/media/Pandas.1e4afcce76cf5b709a81.png",
     "static/media/APIResponse.png": "/portfolio/static/media/APIResponse.186969c90d0c05ac4ae4.png",
     "static/media/devin.jpg": "/portfolio/static/media/devin.b841733fa2c9c6817f4a.jpg",
@@ -26,17 +26,18 @@
     "static/media/McDonalds.png": "/portfolio/static/media/McDonalds.bb8154a9ebe24593667b.png",
     "static/media/MUI.png": "/portfolio/static/media/MUI.5b2d8a0a309d9f7d47c1.png",
     "static/media/MongoDB.png": "/portfolio/static/media/MongoDB.7fa5a27fdebca7f75f3a.png",
+    "static/media/Golang.png": "/portfolio/static/media/Golang.6a3cd1884425f3b03c7d.png",
     "static/media/Figma.png": "/portfolio/static/media/Figma.72fbc535ebe253a5dbc4.png",
     "static/media/CSS.png": "/portfolio/static/media/CSS.463e319bad8e0edf1ef7.png",
     "static/media/HTML.png": "/portfolio/static/media/HTML.ff3cf75e3b7cbb4ea77c.png",
     "static/media/Typescript.png": "/portfolio/static/media/Typescript.af108db04a54d784da9b.png",
     "static/media/NYUFCU.png": "/portfolio/static/media/NYUFCU.dc2dafe3220598fc04e0.png",
     "index.html": "/portfolio/index.html",
-    "main.7e07bb78.css.map": "/portfolio/static/css/main.7e07bb78.css.map",
-    "main.84450c26.js.map": "/portfolio/static/js/main.84450c26.js.map"
+    "main.eb65102d.css.map": "/portfolio/static/css/main.eb65102d.css.map",
+    "main.2ff88b9f.js.map": "/portfolio/static/js/main.2ff88b9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e07bb78.css",
-    "static/js/main.84450c26.js"
+    "static/css/main.eb65102d.css",
+    "static/js/main.2ff88b9f.js"
   ]
 }
