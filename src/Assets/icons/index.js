@@ -7,13 +7,20 @@ const ICONS = {
     src: require("./CSS.png"),
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
+  "C++": {
+    src: require("./C++.png"),
+    url: "https://cplusplus.com/",
+  },
   Discord: {
     src: require("./Discord.png"),
     url: "https://discord.com/developers/docs/intro",
   },
   Figma: { src: require("./Figma.png"), url: "https://www.figma.com/" },
   Golang: { src: require("./Golang.png"), url: "https://go.dev/" },
-  GoogleCloud: { src: require("./GoogleCloud.png"), url: "https://cloud.google.com/storage" },
+  GoogleCloud: {
+    src: require("./GoogleCloud.png"),
+    url: "https://cloud.google.com/storage",
+  },
   HTML: {
     src: require("./HTML.png"),
     url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
