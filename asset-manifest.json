@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eb65102d.css",
-    "main.js": "/portfolio/static/js/main.2ff88b9f.js",
-    "static/media/osutheme.gif": "/portfolio/static/media/osutheme.689e52e5b6a600ab16ec.gif",
+    "main.css": "/portfolio/static/css/main.4a3fcd11.css",
+    "main.js": "/portfolio/static/js/main.f8e49000.js",
+    "static/media/demo.gif": "/portfolio/static/media/demo.9b2f0945223892bbe939.gif",
+    "static/media/osu-theme.gif": "/portfolio/static/media/osu-theme.689e52e5b6a600ab16ec.gif",
+    "static/media/profile-page.png": "/portfolio/static/media/profile-page.93cb97c87633d82ed95f.png",
     "static/media/popeyes_devin.jpg": "/portfolio/static/media/popeyes_devin.6e1d904235411af86954.jpg",
     "static/media/Naughty.png": "/portfolio/static/media/Naughty.110db53906271e2b442e.png",
-    "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.c6c11250bfe7226b9f23.png",
+    "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.eddf227e100627c948ce.png",
     "static/media/Webinars.png": "/portfolio/static/media/Webinars.3eb28a9891bba58c7ef3.png",
     "static/media/Trustage.png": "/portfolio/static/media/Trustage.2d386e65c77bc1dd65b1.png",
     "static/media/Tables.png": "/portfolio/static/media/Tables.2a360e4fc879f4a0e928.png",
-    "static/media/ProfilePage.png": "/portfolio/static/media/ProfilePage.37105374f3c7a044c5a6.png",
     "static/media/Popeyes.png": "/portfolio/static/media/Popeyes.41656d3066d877d7db28.png",
     "static/media/React.png": "/portfolio/static/media/React.8a6fc0a24a800d1e0f4a.png",
     "static/media/mcdonalds_devin.jpg": "/portfolio/static/media/mcdonalds_devin.2899f5a05b6f9c9af47a.jpg",
     "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Python.png": "/portfolio/static/media/Python.fa4d12beb4f41da511bd.png",
     "static/media/ApprovalTable.png": "/portfolio/static/media/ApprovalTable.f671b18086ae47a4949c.png",
+    "static/media/profile-problems.png": "/portfolio/static/media/profile-problems.6ab0b0071a0c6e8c794c.png",
+    "static/media/weekly-progress.png": "/portfolio/static/media/weekly-progress.946a2151d2c3fb4db197.png",
     "static/media/Pandas.png": "/portfolio/static/media/Pandas.1e4afcce76cf5b709a81.png",
-    "static/media/APIResponse.png": "/portfolio/static/media/APIResponse.186969c90d0c05ac4ae4.png",
+    "static/media/starting-stats.png": "/portfolio/static/media/starting-stats.699aa561f771760f4b3e.png",
+    "static/media/result.png": "/portfolio/static/media/result.3f0ae4d6bedf31631739.png",
+    "static/media/api-response.png": "/portfolio/static/media/api-response.186969c90d0c05ac4ae4.png",
+    "static/media/artifact-pref.png": "/portfolio/static/media/artifact-pref.6d626b438f455b138ec8.png",
+    "static/media/C++.png": "/portfolio/static/media/C++.d8d9a2f879d60721c1ac.png",
     "static/media/devin.jpg": "/portfolio/static/media/devin.b841733fa2c9c6817f4a.jpg",
     "static/media/Chrome.png": "/portfolio/static/media/Chrome.36d994b239eafa2c2c87.png",
-    "static/media/Devin L. Resume.pdf": "/portfolio/static/media/Devin L. Resume.48fcff4a037010a37c23.pdf",
+    "static/media/Devin_Li_Resume.pdf": "/portfolio/static/media/Devin_Li_Resume.8338c36e14579557a909.pdf",
     "static/media/NodeJS.png": "/portfolio/static/media/NodeJS.e328955d6bbbf3ebc72b.png",
     "static/media/Postgres.png": "/portfolio/static/media/Postgres.31db8641646da4384529.png",
     "static/media/McDonalds.png": "/portfolio/static/media/McDonalds.bb8154a9ebe24593667b.png",
@@ -33,11 +40,11 @@
     "static/media/Typescript.png": "/portfolio/static/media/Typescript.af108db04a54d784da9b.png",
     "static/media/NYUFCU.png": "/portfolio/static/media/NYUFCU.dc2dafe3220598fc04e0.png",
     "index.html": "/portfolio/index.html",
-    "main.eb65102d.css.map": "/portfolio/static/css/main.eb65102d.css.map",
-    "main.2ff88b9f.js.map": "/portfolio/static/js/main.2ff88b9f.js.map"
+    "main.4a3fcd11.css.map": "/portfolio/static/css/main.4a3fcd11.css.map",
+    "main.f8e49000.js.map": "/portfolio/static/js/main.f8e49000.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb65102d.css",
-    "static/js/main.2ff88b9f.js"
+    "static/css/main.4a3fcd11.css",
+    "static/js/main.f8e49000.js"
   ]
 }
