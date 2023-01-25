@@ -1,7 +1,7 @@
 import React from "react";
 import ContentBox from "../../Components/ContentBox";
 import Devin from "../../Assets/people/devin.jpg";
-import Resume from "../../Assets/docs/Devin L. Resume.pdf";
+import Resume from "../../Assets/docs/Devin_Li_Resume.pdf";
 import { IconButton, Tooltip } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
