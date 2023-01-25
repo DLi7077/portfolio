@@ -12,7 +12,7 @@ const appStyle = {
   flexDirection: "column",
   justifyContent: "flex-start",
   alignItems: "center",
-  gap: "4rem",
+  gap: "2rem",
   overflow: "hidden",
 };
 

@@ -32,19 +32,17 @@ const classes = {
 export default function AboutMe() {
   const aboutMe = (
     <div className="text">
-      I'm 20 years old, entering my 4th year at CUNY Hunter College as a
-      computer science major.
-      <div style={{height:"0.5rem"}}/>
-      My course works mainly consist of command line scripts and algorithm
-      implementations, which I find a bit boring.
-      <br/>
-      However, I'm currently taking high level elective classes and am really
-      enjoying it!
+      I'm 21 years old, a 4th year Computer Science major in CUNY Hunter
+      College.
       <br />
-      <div style={{height:"0.5rem"}}/>
-      I've decided to explore full stack development and a bit of machine learning on my
-      own.
-      <div style={{height:"0.5rem"}}/>
+      Undergraduate teaching assistant for CSCI 335, the highest level course
+      focused on data structures and algorithms.
+      <div style={{ height: "0.5rem" }} />
+      I've decided to explore full stack development and a bit of machine
+      learning on my own.
+      <div style={{ height: "0.5rem" }} />
+      Currently reading "Think again" by Adam Grant
+      <div style={{ height: "0.5rem" }} />
       Although I have no relevant professional software engineering experience,
       I've been using projects as a way to grow.
       <br />
@@ -62,7 +60,9 @@ export default function AboutMe() {
         />
       </div>
       <div style={classes.contentBox}>
-        <ContentBox style={{ width: "80%", padding: "1rem", display: "block" }}>
+        <ContentBox
+          style={{ width: "80%", padding: "0.25rem", display: "block" }}
+        >
           {aboutMe}
         </ContentBox>
       </div>

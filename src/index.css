@@ -14,7 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: white;
   background-color: #1c1917;
-  gap: 2rem;
 }
 
 code {
@@ -24,7 +23,7 @@ code {
 .section-title {
   font-family: "robotoReg";
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2.25rem;
   text-align: center;
 }
 .title {
@@ -76,6 +75,6 @@ blockquote {
   padding-left: 1rem;
   border-left: 2px solid gray;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }

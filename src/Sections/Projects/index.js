@@ -1,7 +1,5 @@
-import KatsudonLeaderboard from "./Katsudon Leaderboard";
-import KatsudonML from "./Katsudon ML";
-import OsuTheme from "./Osu Theme";
-import TheGoldenHouse from "./The Golden House";
+import { PROJECTS } from "../../Constants/projects";
+import ProjectItem from "../../Components/ProjectItem";
 
 export default function Projects() {
   return (
@@ -13,10 +11,9 @@ export default function Projects() {
         Every project is a chance to grow!
       </div>
       <div className="block-wrapper">
-        <TheGoldenHouse />
-        <KatsudonLeaderboard />
-        <KatsudonML />
-        <OsuTheme />
+        {PROJECTS.map((project, idx) => (
+          <ProjectItem key={`project-${idx}`} project={project} />
+        ))}
       </div>
     </div>
   );
