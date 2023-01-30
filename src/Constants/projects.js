@@ -327,16 +327,12 @@ export const PROJECTS = [
     highlight_color: "#ff66ae",
     slides: [osuThemeGif],
     tools_used: ["Javascript", "React", "CSS", "MUI"],
+    link: "https://dli7077.github.io/osu-theme/",
     external_links: [
       {
         type: "Github",
-        label: "Discord Bot",
-        link: "https://github.com/DLi7077/katsudon-discord-bot",
-      },
-      {
-        type: "Github",
-        label: "Postgres Server",
-        link: "https://github.com/DLi7077/katsudon-pg-server",
+        label: "Website Repo",
+        link: "https://github.com/DLi7077/osu-theme/",
       },
     ],
     tabs: [
