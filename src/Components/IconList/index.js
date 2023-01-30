@@ -22,14 +22,14 @@ export default function IconList(props) {
   return (
     <div style={classes.list}>
       {props.icons.map((icon, idx) => {
-        return (
-          ICONS[icon] && (
-            <div key={idx}>
-              <a href={ICONS[icon].url} target="_blank" rel="noreferrer">
-                <img src={ICONS[icon].src} style={classes.icon} alt={icon} />
-              </a>
-            </div>
-          )
+        return !!ICONS[icon] ? (
+          <div key={idx}>
+            <a href={ICONS[icon].url} target="_blank" rel="noreferrer">
+              <img src={ICONS[icon].src} style={classes.icon} alt={icon} />
+            </a>
+          </div>
+        ) : (
+          <div style={{ fontSize: "1.25rem" }}>{icon}</div>
         );
       })}
     </div>

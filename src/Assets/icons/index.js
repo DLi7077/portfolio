@@ -16,6 +16,7 @@ const ICONS = {
     url: "https://discord.com/developers/docs/intro",
   },
   Figma: { src: require("./Figma.png"), url: "https://www.figma.com/" },
+  Github: { src: require("./Github.png"), url: "https://www.github.com/" },
   Golang: { src: require("./Golang.png"), url: "https://go.dev/" },
   GoogleCloud: {
     src: require("./GoogleCloud.png"),
