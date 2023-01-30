@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a3fcd11.css",
-    "main.js": "/portfolio/static/js/main.f8e49000.js",
+    "main.css": "/portfolio/static/css/main.fd772876.css",
+    "main.js": "/portfolio/static/js/main.a28085de.js",
     "static/media/demo.gif": "/portfolio/static/media/demo.9b2f0945223892bbe939.gif",
     "static/media/osu-theme.gif": "/portfolio/static/media/osu-theme.689e52e5b6a600ab16ec.gif",
     "static/media/profile-page.png": "/portfolio/static/media/profile-page.93cb97c87633d82ed95f.png",
     "static/media/popeyes_devin.jpg": "/portfolio/static/media/popeyes_devin.6e1d904235411af86954.jpg",
-    "static/media/Naughty.png": "/portfolio/static/media/Naughty.110db53906271e2b442e.png",
     "static/media/Leaderboard.png": "/portfolio/static/media/Leaderboard.eddf227e100627c948ce.png",
-    "static/media/Webinars.png": "/portfolio/static/media/Webinars.3eb28a9891bba58c7ef3.png",
-    "static/media/Trustage.png": "/portfolio/static/media/Trustage.2d386e65c77bc1dd65b1.png",
-    "static/media/Tables.png": "/portfolio/static/media/Tables.2a360e4fc879f4a0e928.png",
     "static/media/Popeyes.png": "/portfolio/static/media/Popeyes.41656d3066d877d7db28.png",
     "static/media/React.png": "/portfolio/static/media/React.8a6fc0a24a800d1e0f4a.png",
     "static/media/mcdonalds_devin.jpg": "/portfolio/static/media/mcdonalds_devin.2899f5a05b6f9c9af47a.jpg",
@@ -38,13 +34,12 @@
     "static/media/CSS.png": "/portfolio/static/media/CSS.463e319bad8e0edf1ef7.png",
     "static/media/HTML.png": "/portfolio/static/media/HTML.ff3cf75e3b7cbb4ea77c.png",
     "static/media/Typescript.png": "/portfolio/static/media/Typescript.af108db04a54d784da9b.png",
-    "static/media/NYUFCU.png": "/portfolio/static/media/NYUFCU.dc2dafe3220598fc04e0.png",
     "index.html": "/portfolio/index.html",
-    "main.4a3fcd11.css.map": "/portfolio/static/css/main.4a3fcd11.css.map",
-    "main.f8e49000.js.map": "/portfolio/static/js/main.f8e49000.js.map"
+    "main.fd772876.css.map": "/portfolio/static/css/main.fd772876.css.map",
+    "main.a28085de.js.map": "/portfolio/static/js/main.a28085de.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a3fcd11.css",
-    "static/js/main.f8e49000.js"
+    "static/css/main.fd772876.css",
+    "static/js/main.a28085de.js"
   ]
 }
