@@ -1,6 +1,5 @@
-import McDonalds from "./McDonalds";
-import NYUFCU from "./NYU Federal Credit Union";
-import Popeyes from "./Popeyes";
+import { WORK_EXPERIENCES } from "../../Constants/work-experience";
+import WorkExperienceItem from "../../Components/WorkExperienceItem";
 
 export default function WorkExperience() {
   return (
@@ -12,9 +11,9 @@ export default function WorkExperience() {
         Just your typical fast food worker
       </div>
       <div className="block-wrapper">
-        <NYUFCU />
-        <Popeyes />
-        <McDonalds />
+        {WORK_EXPERIENCES.map((workExp, idx) => (
+          <WorkExperienceItem key={`work-exp-${idx}`} workExp={workExp} />
+        ))}
       </div>
     </div>
   );
